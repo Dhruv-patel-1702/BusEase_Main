@@ -308,7 +308,7 @@ class _TicketCreateState extends State<TicketCreate> {
           )
         : Scaffold(
             appBar: AppBar(
-              title: const Text('Ticket Create',
+              title: Text('Ticket Create',
                   style: TextStyle(
                       color: Colors
                           .white)), // Set app bar title text color to white
@@ -338,7 +338,7 @@ class _TicketCreateState extends State<TicketCreate> {
                           ),
                           Text(
                             widget.bus_number,
-                            style: const TextStyle(
+                            style: TextStyle(
                               color: Colors.white,
                               fontSize: 24, // Adjust the font size as needed
                             ),
